@@ -44,6 +44,7 @@
             button10 = new Button();
             button9 = new Button();
             button1 = new Button();
+            button12 = new Button();
             SuspendLayout();
             // 
             // label3
@@ -199,6 +200,7 @@
             button9.TabIndex = 24;
             button9.Text = "?";
             button9.UseVisualStyleBackColor = true;
+            button9.Click += button9_Click;
             // 
             // button1
             // 
@@ -210,11 +212,22 @@
             button1.Text = "button1";
             button1.UseVisualStyleBackColor = true;
             // 
+            // button12
+            // 
+            button12.Location = new Point(943, 568);
+            button12.Name = "button12";
+            button12.Size = new Size(70, 70);
+            button12.TabIndex = 39;
+            button12.Text = "Выход";
+            button12.UseVisualStyleBackColor = true;
+            button12.Click += button12_Click;
+            // 
             // Form6
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1010, 615);
+            ClientSize = new Size(1028, 662);
+            Controls.Add(button12);
             Controls.Add(label3);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
@@ -260,5 +273,6 @@
         private Button button10;
         private Button button9;
         private Button button1;
+        private Button button12;
     }
 }

@@ -22,10 +22,10 @@ namespace Praktika2._0
         {
             Form5 f = new Form5();
             f.ShowDialog();
-        }
+            }
 
         private void button2_Click(object sender, EventArgs e)
-        {
+        { 
             Form4 f = new Form4();
             f.ShowDialog();
             
@@ -34,7 +34,6 @@ namespace Praktika2._0
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Close();
             Form3 f = new Form3();
             f.ShowDialog();
         }

@@ -36,21 +36,22 @@
             // 
             // button2
             // 
-            button2.Location = new Point(208, 137);
+            button2.Location = new Point(203, 121);
             button2.Name = "button2";
-            button2.Size = new Size(80, 40);
+            button2.Size = new Size(92, 49);
             button2.TabIndex = 7;
-            button2.Text = "button2";
+            button2.Text = "Галочка";
             button2.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
-            button1.Location = new Point(208, 68);
+            button1.Location = new Point(198, 64);
             button1.Name = "button1";
-            button1.Size = new Size(80, 40);
+            button1.Size = new Size(97, 40);
             button1.TabIndex = 6;
-            button1.Text = "button1";
+            button1.Text = "Включить";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // label2
             // 

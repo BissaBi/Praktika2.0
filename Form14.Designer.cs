@@ -59,6 +59,7 @@
             button3.TabIndex = 10;
             button3.Text = "Язык";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button2
             // 

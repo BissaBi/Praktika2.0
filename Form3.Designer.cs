@@ -50,7 +50,7 @@
             button1.Name = "button1";
             button1.Size = new Size(290, 35);
             button1.TabIndex = 1;
-            button1.Text = "Скачать";
+            button1.Text = "Подробнее";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 

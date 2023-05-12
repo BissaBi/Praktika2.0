@@ -46,6 +46,7 @@
             button4.TabIndex = 7;
             button4.Text = "Об авторах";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // button3
             // 
@@ -59,6 +60,7 @@
             button3.TabIndex = 6;
             button3.Text = "Язык";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button2
             // 
@@ -72,6 +74,7 @@
             button2.TabIndex = 5;
             button2.Text = "Темы";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click_1;
             // 
             // button1
             // 
@@ -85,6 +88,7 @@
             button1.TabIndex = 4;
             button1.Text = "Справка";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // Form7
             // 

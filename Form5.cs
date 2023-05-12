@@ -31,5 +31,11 @@ namespace Praktika2._0
         {
             MessageBox.Show("Язык уже установлен!");
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form13 f = new Form13();
+            f.ShowDialog();
+        }
     }
 }
