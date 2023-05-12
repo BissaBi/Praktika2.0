@@ -20,17 +20,27 @@ namespace Praktika2._0
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            Form5 f = new Form5();
+            f.ShowDialog();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
+            Form4 f = new Form4();
+            f.ShowDialog();
 
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Form3 f = new Form3();
+            f.ShowDialog();
+        }
 
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Form11 f = new Form11();
+            f.ShowDialog();
         }
     }
 }
