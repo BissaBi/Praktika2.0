@@ -35,6 +35,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(312, 483);
+            FormBorderStyle = FormBorderStyle.FixedDialog;
             MaximumSize = new Size(330, 530);
             MinimumSize = new Size(330, 530);
             Name = "Form11";

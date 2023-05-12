@@ -83,7 +83,7 @@
             MinimumSize = new Size(330, 530);
             Name = "Form10";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Язык";
+            Text = "Язык ру/тем ";
             ResumeLayout(false);
         }
 

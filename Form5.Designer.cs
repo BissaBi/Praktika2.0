@@ -55,21 +55,21 @@
             // 
             // button1
             // 
-            button1.Location = new Point(213, 72);
+            button1.Location = new Point(200, 58);
             button1.Name = "button1";
-            button1.Size = new Size(80, 40);
+            button1.Size = new Size(100, 50);
             button1.TabIndex = 2;
-            button1.Text = "button1";
+            button1.Text = "Галочка";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
             // button2
             // 
-            button2.Location = new Point(213, 141);
+            button2.Location = new Point(200, 124);
             button2.Name = "button2";
-            button2.Size = new Size(80, 40);
+            button2.Size = new Size(100, 50);
             button2.TabIndex = 3;
-            button2.Text = "button2";
+            button2.Text = "Включить";
             button2.UseVisualStyleBackColor = true;
             // 
             // Form5
@@ -81,6 +81,7 @@
             Controls.Add(button1);
             Controls.Add(label2);
             Controls.Add(label1);
+            FormBorderStyle = FormBorderStyle.FixedDialog;
             MaximumSize = new Size(330, 530);
             MinimumSize = new Size(330, 530);
             Name = "Form5";

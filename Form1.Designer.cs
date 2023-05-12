@@ -44,6 +44,7 @@
             textBox1 = new TextBox();
             textBox2 = new TextBox();
             label3 = new Label();
+            button12 = new Button();
             SuspendLayout();
             // 
             // button1
@@ -225,11 +226,22 @@
             label3.Text = "F'( x ) =";
             label3.Click += label3_Click;
             // 
+            // button12
+            // 
+            button12.Location = new Point(928, 559);
+            button12.Name = "button12";
+            button12.Size = new Size(70, 70);
+            button12.TabIndex = 23;
+            button12.Text = "Выход";
+            button12.UseVisualStyleBackColor = true;
+            button12.Click += button12_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1010, 615);
+            ClientSize = new Size(1028, 662);
+            Controls.Add(button12);
             Controls.Add(label3);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
@@ -246,6 +258,7 @@
             Controls.Add(button10);
             Controls.Add(button9);
             Controls.Add(button1);
+            FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(3, 4, 3, 4);
             MaximumSize = new Size(1028, 662);
             MinimumSize = new Size(1028, 662);
@@ -275,5 +288,6 @@
         private TextBox textBox1;
         private TextBox textBox2;
         private Label label3;
+        private Button button12;
     }
 }

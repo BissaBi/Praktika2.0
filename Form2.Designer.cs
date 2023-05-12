@@ -99,6 +99,7 @@
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
+            FormBorderStyle = FormBorderStyle.FixedDialog;
             Margin = new Padding(3, 4, 3, 4);
             MaximumSize = new Size(330, 530);
             MinimumSize = new Size(330, 530);

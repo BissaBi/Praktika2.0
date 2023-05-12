@@ -91,6 +91,7 @@
             Controls.Add(label1);
             Controls.Add(button1);
             Controls.Add(pictureBox1);
+            FormBorderStyle = FormBorderStyle.FixedDialog;
             MaximumSize = new Size(330, 530);
             MinimumSize = new Size(330, 530);
             Name = "Form3";

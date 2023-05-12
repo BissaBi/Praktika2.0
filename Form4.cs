@@ -21,5 +21,16 @@ namespace Praktika2._0
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Тема уже установлена!");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form6 f = new Form6();
+            f.Show();
+        }
     }
 }

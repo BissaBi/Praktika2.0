@@ -83,7 +83,7 @@
             MinimumSize = new Size(330, 530);
             Name = "Form22";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Тема";
+            Text = "Тема  анг/тем";
             ResumeLayout(false);
         }
 

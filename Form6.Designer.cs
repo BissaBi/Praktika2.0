@@ -231,11 +231,12 @@
             Controls.Add(button10);
             Controls.Add(button9);
             Controls.Add(button1);
+            FormBorderStyle = FormBorderStyle.None;
             MaximumSize = new Size(1028, 662);
             MinimumSize = new Size(1028, 662);
             Name = "Form6";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Dmath";
+            Text = "Dmath ру/тем";
             Load += Form6_Load;
             ResumeLayout(false);
             PerformLayout();

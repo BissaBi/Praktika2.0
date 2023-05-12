@@ -72,6 +72,7 @@
             button2.TabIndex = 9;
             button2.Text = "Темы";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button1
             // 
@@ -99,6 +100,7 @@
             MinimumSize = new Size(330, 530);
             Name = "Form14";
             StartPosition = FormStartPosition.CenterScreen;
+            Text = "анг/свет";
             ResumeLayout(false);
         }
 

@@ -39,7 +39,7 @@
             MinimumSize = new Size(330, 530);
             Name = "Form18";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Об авторах";
+            Text = "Об авторах анг/свет";
             ResumeLayout(false);
         }
 

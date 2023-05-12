@@ -83,7 +83,7 @@
             MinimumSize = new Size(330, 530);
             Name = "Form17";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Язык";
+            Text = "Язык анг/свет";
             ResumeLayout(false);
         }
 

@@ -38,7 +38,7 @@
             MaximumSize = new Size(330, 530);
             MinimumSize = new Size(330, 530);
             Name = "Form24";
-            Text = "Об авторах";
+            Text = "Об авторах  анг/тем";
             ResumeLayout(false);
         }
 

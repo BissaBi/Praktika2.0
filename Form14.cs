@@ -16,5 +16,11 @@ namespace Praktika2._0
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form16 f = new Form16();
+            f.ShowDialog();
+        }
     }
 }

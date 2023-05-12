@@ -28,11 +28,13 @@ namespace Praktika2._0
         {
             Form4 f = new Form4();
             f.ShowDialog();
+            
 
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Close();
             Form3 f = new Form3();
             f.ShowDialog();
         }

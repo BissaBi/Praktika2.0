@@ -91,7 +91,7 @@
             MinimumSize = new Size(330, 530);
             Name = "Form21";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Справка";
+            Text = "Справка  анг/тем";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }

@@ -39,7 +39,7 @@
             MinimumSize = new Size(330, 530);
             Name = "Form12";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Об авторах";
+            Text = "Об авторах ру/тем ";
             ResumeLayout(false);
         }
 

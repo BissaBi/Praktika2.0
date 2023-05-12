@@ -102,7 +102,7 @@
             MinimumSize = new Size(330, 530);
             Name = "Form8";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Справка";
+            Text = "Справка ру/тем ";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }

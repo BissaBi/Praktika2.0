@@ -99,6 +99,7 @@
             MinimumSize = new Size(330, 530);
             Name = "Form7";
             StartPosition = FormStartPosition.CenterScreen;
+            Text = "ру/тем ";
             ResumeLayout(false);
         }
 

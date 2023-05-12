@@ -99,6 +99,7 @@
             MinimumSize = new Size(330, 530);
             Name = "Form20";
             StartPosition = FormStartPosition.CenterScreen;
+            Text = " анг/тем";
             ResumeLayout(false);
         }
 
