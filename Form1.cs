@@ -1,4 +1,4 @@
-namespace Praktika2._0
+﻿namespace Praktika2._0
 {
     public partial class Form1 : Form
     {
@@ -34,47 +34,47 @@ namespace Praktika2._0
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            textBox1.Text += "+";
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            textBox1.Text += "*";
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            textBox1.Text += "( )";
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            textBox1.Text += "√()";
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-
+            textBox1.Text += "-";
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-
+            textBox1.Text += "/";
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-
+            textBox1.Text += "( / )";
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
-
+            textBox1.Text += "^";
         }
 
         private void button10_Click(object sender, EventArgs e)
         {
-
+            textBox1.Text = "";
         }
 
         private void button9_Click(object sender, EventArgs e)
@@ -85,7 +85,10 @@ namespace Praktika2._0
 
         private void button11_Click(object sender, EventArgs e)
         {
-
+            if (textBox1.Text == "")
+            {
+                MessageBox.Show("Поле ввода пустое!");
+            }
         }
     }
 }
