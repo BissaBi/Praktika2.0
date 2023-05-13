@@ -28,67 +28,37 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
             pictureBox1 = new PictureBox();
             button1 = new Button();
-            label1 = new Label();
-            label2 = new Label();
-            label3 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(12, 218);
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(12, 209);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(290, 215);
+            pictureBox1.Size = new Size(290, 224);
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
             // button1
             // 
+            button1.BackgroundImage = (Image)resources.GetObject("button1.BackgroundImage");
             button1.Location = new Point(12, 439);
             button1.Name = "button1";
             button1.Size = new Size(290, 35);
             button1.TabIndex = 1;
-            button1.Text = "Подробнее";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
-            // 
-            // label1
-            // 
-            label1.Location = new Point(12, 53);
-            label1.Name = "label1";
-            label1.Size = new Size(279, 43);
-            label1.TabIndex = 2;
-            label1.Text = "F( ) = - в это поле вводится исходная функция ";
-            label1.Click += label1_Click;
-            // 
-            // label2
-            // 
-            label2.Location = new Point(12, 96);
-            label2.Name = "label2";
-            label2.Size = new Size(275, 50);
-            label2.TabIndex = 3;
-            label2.Text = "F'( ) = - в этом поле выводится производная функции";
-            label2.Click += label2_Click;
-            // 
-            // label3
-            // 
-            label3.Location = new Point(12, 146);
-            label3.Name = "label3";
-            label3.Size = new Size(267, 51);
-            label3.TabIndex = 4;
-            label3.Text = "Введиту функцию в строку ввода и нажмите кнопку \"Решение\"";
-            label3.Click += label3_Click;
             // 
             // Form3
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(312, 483);
-            Controls.Add(label3);
-            Controls.Add(label2);
-            Controls.Add(label1);
             Controls.Add(button1);
             Controls.Add(pictureBox1);
             FormBorderStyle = FormBorderStyle.FixedDialog;
@@ -105,9 +75,6 @@
 
         private PictureBox pictureBox1;
         private Button button1;
-        private Label label1;
-        private Label label2;
-        private Label label3;
         private Button button2;
     }
 }

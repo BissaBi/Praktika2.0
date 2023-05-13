@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             button1 = new Button();
             button2 = new Button();
             button3 = new Button();
@@ -36,6 +37,7 @@
             // 
             // button1
             // 
+            button1.BackgroundImage = (Image)resources.GetObject("button1.BackgroundImage");
             button1.Font = new Font("MS PGothic", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             button1.Location = new Point(37, 33);
             button1.Margin = new Padding(3, 4, 3, 4);
@@ -44,12 +46,12 @@
             button1.Name = "button1";
             button1.Size = new Size(240, 90);
             button1.TabIndex = 0;
-            button1.Text = "Справка";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
             // button2
             // 
+            button2.BackgroundImage = (Image)resources.GetObject("button2.BackgroundImage");
             button2.Font = new Font("MS PGothic", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             button2.Location = new Point(37, 144);
             button2.Margin = new Padding(3, 4, 3, 4);
@@ -58,12 +60,12 @@
             button2.Name = "button2";
             button2.Size = new Size(240, 90);
             button2.TabIndex = 1;
-            button2.Text = "Темы";
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
             // button3
             // 
+            button3.BackgroundImage = (Image)resources.GetObject("button3.BackgroundImage");
             button3.Font = new Font("MS PGothic", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             button3.Location = new Point(37, 253);
             button3.Margin = new Padding(3, 4, 3, 4);
@@ -72,12 +74,12 @@
             button3.Name = "button3";
             button3.Size = new Size(240, 90);
             button3.TabIndex = 2;
-            button3.Text = "Язык";
             button3.UseVisualStyleBackColor = true;
             button3.Click += button3_Click;
             // 
             // button4
             // 
+            button4.BackgroundImage = (Image)resources.GetObject("button4.BackgroundImage");
             button4.Font = new Font("MS PGothic", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             button4.Location = new Point(37, 362);
             button4.Margin = new Padding(3, 4, 3, 4);
@@ -86,7 +88,6 @@
             button4.Name = "button4";
             button4.Size = new Size(240, 90);
             button4.TabIndex = 3;
-            button4.Text = "Об авторах";
             button4.UseVisualStyleBackColor = true;
             button4.Click += button4_Click;
             // 
@@ -94,6 +95,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(312, 483);
             Controls.Add(button4);
             Controls.Add(button3);

@@ -28,63 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form8));
             button1 = new Button();
             pictureBox1 = new PictureBox();
-            label3 = new Label();
-            label2 = new Label();
-            label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // button1
             // 
+            button1.BackgroundImage = (Image)resources.GetObject("button1.BackgroundImage");
             button1.Location = new Point(12, 440);
             button1.Name = "button1";
             button1.Size = new Size(290, 35);
             button1.TabIndex = 6;
-            button1.Text = "Подробнее";
             button1.UseVisualStyleBackColor = true;
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(12, 222);
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(12, 210);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(290, 215);
             pictureBox1.TabIndex = 5;
             pictureBox1.TabStop = false;
             // 
-            // label3
-            // 
-            label3.Location = new Point(12, 150);
-            label3.Name = "label3";
-            label3.Size = new Size(267, 51);
-            label3.TabIndex = 9;
-            label3.Text = "Введиту функцию в строку ввода и нажмите кнопку \"Решение\"";
-            // 
-            // label2
-            // 
-            label2.Location = new Point(12, 83);
-            label2.Name = "label2";
-            label2.Size = new Size(275, 50);
-            label2.TabIndex = 8;
-            label2.Text = "F'( ) = - в этом поле выводится производная функции";
-            // 
-            // label1
-            // 
-            label1.Location = new Point(12, 29);
-            label1.Name = "label1";
-            label1.Size = new Size(279, 43);
-            label1.TabIndex = 7;
-            label1.Text = "F( ) = - в это поле вводится исходная функция ";
-            // 
             // Form8
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(312, 483);
-            Controls.Add(label3);
-            Controls.Add(label2);
-            Controls.Add(label1);
             Controls.Add(button1);
             Controls.Add(pictureBox1);
             MaximumSize = new Size(330, 530);
@@ -99,8 +72,5 @@
         #endregion
         private Button button1;
         private PictureBox pictureBox1;
-        private Label label3;
-        private Label label2;
-        private Label label1;
     }
 }

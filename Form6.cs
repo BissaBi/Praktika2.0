@@ -106,7 +106,7 @@ namespace Praktika2._0
                 MessageBox.Show("Поле ввода пустое!");
             }
 
-            
+
         }
     }
 }

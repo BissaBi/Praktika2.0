@@ -98,5 +98,10 @@ namespace Praktika2._0
         {
             textBox1.Text += "^";
         }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

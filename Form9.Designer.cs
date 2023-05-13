@@ -28,59 +28,39 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form9));
             button2 = new Button();
             button1 = new Button();
-            label2 = new Label();
-            label1 = new Label();
             SuspendLayout();
             // 
             // button2
             // 
-            button2.Location = new Point(200, 125);
+            button2.BackgroundImage = (Image)resources.GetObject("button2.BackgroundImage");
+            button2.Location = new Point(175, 107);
             button2.Name = "button2";
-            button2.Size = new Size(100, 45);
+            button2.Size = new Size(125, 45);
             button2.TabIndex = 8;
-            button2.Text = "Галочка";
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
             // button1
             // 
-            button1.Location = new Point(200, 63);
+            button1.BackgroundImage = (Image)resources.GetObject("button1.BackgroundImage");
+            button1.Location = new Point(175, 38);
             button1.Name = "button1";
-            button1.Size = new Size(100, 45);
+            button1.Size = new Size(125, 45);
             button1.TabIndex = 7;
-            button1.Text = "Включить";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
-            // 
-            // label2
-            // 
-            label2.Font = new Font("Tahoma", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(30, 130);
-            label2.Name = "label2";
-            label2.Size = new Size(112, 29);
-            label2.TabIndex = 6;
-            label2.Text = "Тёмная";
-            // 
-            // label1
-            // 
-            label1.Font = new Font("Tahoma", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(30, 68);
-            label1.Name = "label1";
-            label1.Size = new Size(112, 29);
-            label1.TabIndex = 5;
-            label1.Text = "Светлая";
             // 
             // Form9
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(312, 483);
             Controls.Add(button2);
             Controls.Add(button1);
-            Controls.Add(label2);
-            Controls.Add(label1);
             MaximumSize = new Size(330, 530);
             MinimumSize = new Size(330, 530);
             Name = "Form9";
@@ -93,8 +73,6 @@
 
         private Button button2;
         private Button button1;
-        private Label label2;
-        private Label label1;
         private Button button3;
     }
 }

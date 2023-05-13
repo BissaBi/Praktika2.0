@@ -35,9 +35,13 @@ namespace Praktika2._0
                 {
                     foreach (Form f in Application.OpenForms)
                         f.Close();
-                };             
+                };
             }
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Тема уже установлена!");
+        }
     }
 }
