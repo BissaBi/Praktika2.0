@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace Praktika2._0
 {
-    public partial class Form23 : Form
+    public partial class Form25 : Form
     {
-        public Form23()
+        public Form25()
         {
             InitializeComponent();
-        }
-
-        private void Form23_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

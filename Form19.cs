@@ -64,7 +64,6 @@ namespace Praktika2._0
 
         private void button12_Click(object sender, EventArgs e)
         {
-
             foreach (Form f in Application.OpenForms)
                 // спрячем все формы кроме основной
                 if (f.GetType() != typeof(Form1))

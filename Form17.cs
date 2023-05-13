@@ -23,7 +23,7 @@ namespace Praktika2._0
             foreach (Form f in Application.OpenForms)
                 // спрячем все формы кроме основной
                 if (f.GetType() != typeof(Form1))
-                    f.Close();
+                    f.Hide();
 
             [STAThread]
             static void Main()
