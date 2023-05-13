@@ -38,6 +38,7 @@
             MaximumSize = new Size(1028, 662);
             MinimumSize = new Size(1028, 662);
             Name = "Form27";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Form27";
             ResumeLayout(false);
         }

@@ -61,7 +61,7 @@
   <data name="button2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAH4AAAArCAIAAAAxAqubAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
-        cwAAEnMBjCK5BwAAAitJREFUeF7t2M+rMXEUx/Hnb5QfC6wUshK2Fv4BrAdJKCVFpGZhgYUlGyU7G1EW
+        cQAAEnEB89x6jgAAAitJREFUeF7t2M+rMXEUx/Hnb5QfC6wUshK2Fv4BrAdJKCVFpGZhgYUlGyU7G1EW
         Ggu/yn1O5jOFe+/zLL/nO53Xzpxj876378z44xGKSHplJL0ykl4ZSa+MpFdG0isj6ZWR9MpIemUkvTJu
         Th+JRAzDyOfzPp8PlzhxbfpisWhZ1tfTfr+PRqMYsOHO9PSf/ng87O62fr+PGRsuTE+HzPV6RXLHYrHA
         mA23pS+VSoj9rlKpYIMNV6WvVqsf54zNNE2Gd1r3pG82myj9bjQaYYMZpunD4TDdKrPZLD7/T6vVQul3
@@ -76,7 +76,7 @@
   <data name="button1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAH8AAAAsCAYAAABMp2dKAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EgAACxIB0t1+/AAAAldJREFUeF7tlyFzwkAQRvsb0eDRoPFo0KBB4/Fo0Hg8/jqvw3aW4xLSTkho99uZ
+        EAAACxABrSO9dQAAAldJREFUeF7tlyFzwkAQRvsb0eDRoPFo0KBB4/Fo0Hg8/jqvw3aW4xLSTkho99uZ
         N7S32XDZl1yOj8FgkERMJD8wkh8YyQ+M5AdG8gMj+YGR/MBIfmAkPzCSH5hO5E8mkzSbzRpTOodon07k
         H4/H9JMonUO0Tyfy1+t12u/3d1yv1y/Rh8PhIVc6h2if3t75l8vlS76W+f54W/nL5TJtNps0Ho8fctSQ
         y2tHo1FaLBZpt9t9ryL8PZ1O7/LU+pWGY0rf8wxqqGX1Op1OlfMF9j353IBV8Tff3QZvK9/2CaU8TSb4
@@ -92,7 +92,7 @@
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAUoAAAISCAYAAACqHIYCAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EgAACxIB0t1+/AAADipJREFUeF7t3Y1x1GiUheFNZxKAACABCIAEIAESgARIgAQggCEBIiABIiABbx0X
+        EAAACxABrSO9dQAADipJREFUeF7t3Y1x1GiUheFNZxKAACABCIAEIAESgARIgAQggCEBIiABIiABbx0X
         2hWq233a4LYl5rlVTw3YarXsqnnn0489//PPP//cAHCaUAIUQglQCCVAIZQAhVACFEIJUAglQCGUAIVQ
         AhRCCVAIJUAhlACFUAIUQglQCCVAIZQAhVACFEIJUAglQCGUAIVQAhRCCVAIJUAhlACFUAIUQglQCCVA
         IZQAhVACFEIJUAglQCGUAIVQAhRCCVAIJUAhlACFUAIUQglQCCVAIZQAhVACFEL5CF69enXz7t27m48f

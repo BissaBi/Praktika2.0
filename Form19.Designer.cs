@@ -175,6 +175,7 @@
             button9.Size = new Size(55, 55);
             button9.TabIndex = 24;
             button9.UseVisualStyleBackColor = true;
+            button9.Click += button9_Click;
             // 
             // button1
             // 

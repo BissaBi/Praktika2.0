@@ -82,5 +82,11 @@ namespace Praktika2._0
                 };
             }
         }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            Form20 f = new Form20();
+            f.ShowDialog();
+        }
     }
 }
