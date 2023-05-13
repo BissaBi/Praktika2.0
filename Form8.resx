@@ -61,7 +61,7 @@
   <data name="button1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAASIAAAAjCAYAAAAwlQenAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EgAACxIB0t1+/AAABNtJREFUeF7tmz1PLDEMRd9vpIaeGmp6aqihhhpqemqooaann6czevfJWM7MfkwY
+        EQAACxEBf2RfkQAABNtJREFUeF7tmz1PLDEMRd9vpIaeGmp6aqihhhpqemqooaann6czevfJWM7MfkwY
         sVxLR7skcZwEfNcZ4M/R0dFgjDFrYiEyxqyOhcgYszoWImPM6liIjDGrYyEyxqyOhcgYszoWImPM6liI
         zGqcnJwMFxcXw8PDw/D8/Dy8vb0Nn5+fw+npaTneHC4Wos6QVCTbplRzHCK3t7ej6GT7+PgYzs7OSh9z
         uFiIOvP09PQvxeaNJKzmODTu7u7G/SJEVEOXl5ejYFMhVePN4WMh6oyEiGsH7yteX1/HMb9BiK6vr//v
@@ -88,7 +88,7 @@
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAUUAAADXCAYAAACNrUOhAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EgAACxIB0t1+/AAAJ05JREFUeF7tnTu3NTexRfmNxBBDbMc4JobYxDjGMbljiHEMMbnvmB9a3HKx+v2q
+        EQAACxEBf2RfkQAAJ05JREFUeF7tnTu3NTexRfmNxBBDbMc4JobYxDjGMbljiHEMMbnvmB9a3HKx+v2q
         PqfWGHOcs1tqdbVaWi31Y+9f/PKXv/ypaZrmSX5RSS7ApmmaOxl2VEMuwKZpmjsZdlRDLsCmaZo7GXZU
         Qy7ApmmaOxl2VEMuwKZpmjsZdlRDLsCmaZo7GXZUQy7ApmmaOxl2VEMuwKZpmjsZdlRDLsCmaZo7GXZU
         Qy7ApmmaOxl2VEMuwKZpmjsZdlRDLsCmaZo7GXZUQy7ApmmaOxl2VEMuwKZpmjsZdlRDLsDq/OpXv7LL
@@ -262,7 +262,7 @@
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAUoAAAISCAYAAACqHIYCAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EgAACxIB0t1+/AAANN1JREFUeF7tnY11FEkSbp8768BgADgwYwBjADiAA4wB4AAOgAHgAOMADowF44De
+        EQAACxEBf2RfkQAANN1JREFUeF7tnY11FEkSbp8768BgADgwYwBjADiAA4wB4AAOgAHgAOMADowF44De
         u9r99sXEZla0flq0pBvn3NNd+RsZmflVViGJ//Ovf/3rSkRE9iiUIiIDCqWIyIBCKSIyoFCKiAwolCIi
         AwqliMiAQikiMqBQiogMKJQiIgMKpYjIgEIpIjKgUIqIDCiUIiIDCqWIyIBCKSIyoFCKiAwolCIiAwql
         iMiAQikiMqBQiogMKJQiIgMKpYjIgEIpIjKgUIqIDCiUIiIDFymUr169uvrx48fV69evl/k35d27d9ft

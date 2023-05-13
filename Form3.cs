@@ -29,7 +29,8 @@ namespace Praktika2._0
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            Form25 f = new Form25();
+            f.ShowDialog();
         }
 
         private void label2_Click(object sender, EventArgs e)

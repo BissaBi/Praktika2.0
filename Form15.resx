@@ -61,7 +61,7 @@
   <data name="button1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAASIAAAAfCAIAAADMT1cmAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
-        cwAAEnMBjCK5BwAABYtJREFUeF7tmk9S1UAQxjkCN+CdgMcJhBMAFxC5wBMuwJ8D+EoP8CjZSxXutcoD
+        cgAAEnIBXmVb4wAABYtJREFUeF7tmk9S1UAQxjkCN+CdgMcJhBMAFxC5wBMuwJ8D+EoP8CjZSxXutcoD
         aJV7sYq9LtzDQn/wQVfbk4T4MIhJd31FJZ2ezszk+6YneSz8vLxIJBKdImWWSHSOlFki0TlSZolE50iZ
         JRKdI2WWSHSOlFki0TlSZv8Hjo9mo9HS4d5e8HeKz58++tPNjfXFxcUP799553z48f3bynh5YWEo9BvK
         OCHHnfxoE/OvgMAg5UPK7OX0BXdcW31intFohOevTNH51zNSYcHfVwxinDBDD7WBIq+PZgSwWgf/I8F8
@@ -91,7 +91,7 @@
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAUUAAADXCAYAAACNrUOhAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EgAACxIB0t1+/AAAKftJREFUeF7tnUuSLUlxhnsJ7KDvCmhWAKygLxtQiw30YwECegFcuheATMxpM5iD
+        EQAACxEBf2RfkQAAKftJREFUeF7tnUuSLUlxhnsJ7KDvCmhWAKygLxtQiw30YwECegFcuheATMxpM5iD
         mZhLZpoLzJhLA82lwVV+p/Kv8uvtEfnO43nKw+yzqpMRGenx+tMj8vXR+//73/dFURT35KNMITKwKIri
         TEY5yhEiA4uiKM5klKMcITKwKIriTEY5yhEiA4uiKM5klKMcITKwKIriTEY5yhEiA4uiKM5klKMcITKw
         KIriTEY5yhEiA4uiKM5klKMcITKwKIriTEY5yhEiA4uiKM5klKMcITKwKIriTEY5yhEiA4uiKM5klKMc
@@ -276,7 +276,7 @@
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAUoAAAISCAYAAACqHIYCAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EgAACxIB0t1+/AAANIJJREFUeF7tnTGaJLWyRlkAPvjgg8/44PNs8MEHH3zwWQALYAF3a/Pu6cd/XxBX
+        EQAACxEBf2RfkQAANIJJREFUeF7tnTGaJLWyRlkAPvjgg8/44PNs8MEHH3zwWQALYAF3a/Pu6cd/XxBX
         ysjqrqrunj7G+apSCoVCIelPZVVNz0f/+te/3ouIyB6FUkRkQKEUERlQKEVEBhRKEZEBhVJEZEChFBEZ
         UChFRAYUShGRAYVSRGRAoRQRGVAoRUQGFEoRkQGFUkRkQKEUERlQKEVEBhRKEZEBhVJEZEChFBEZUChF
         RAYUShGRAYVSRGRAoRQRGVAoRUQGFEoRkQGFUkRk4EUK5Z9//vn+s88+e//bb78t6y/l559/fvD3119/

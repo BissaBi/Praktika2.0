@@ -61,7 +61,7 @@
   <data name="button2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAH8AAAAsCAYAAABMp2dKAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EgAACxIB0t1+/AAAA7BJREFUeF7tmT1T6zAQRd9vTE361FDTU5M6qaFOT08NNanTp/eb43mXWcTalmNl
+        EQAACxEBf2RfkQAAA7BJREFUeF7tmT1T6zAQRd9vTE361FDTU5M6qaFOT08NNanTp/eb43mXWcTalmNl
         Jm92d+ZM4tXXaq8sifBntVp1SUxS/MCk+IFJ8QOT4gcmxQ9Mih+YFD8wKX5gUvzApPiBuUj8zWbTPT09
         dc/Pz9/wfH9/79ZPbpPZ4iP8mJ1Op+719dVtm9wWi8S3b/7Ly0v38fHxr6TrDoeD2z65HRaJ75WzCGR3
         d3duneQ2aC4+yB4fH7996/W6Xxi73e5HXXh4eOjL9vv9rzLAT7nHdrv9UZdn/N79gxg4kt7f37vPz89+
@@ -83,7 +83,7 @@
   <data name="button1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAH8AAAA1CAYAAABofjQZAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EgAACxIB0t1+/AAAAoZJREFUeF7tnM2LuVEUgP2N8rHASiErYSv5B7CcfCShJlJEirLAwpKNkp2NKAux
+        EQAACxEBf2RfkQAAAoZJREFUeF7tnM2LuVEUgP2N8rHASiErYSv5B7CcfCShJlJEirLAwpKNkp2NKAux
         8FXur6M7P2McH9v3nPPUs5hxz7t5Zl7XfYtJEARBEARBII7ZbFYiTyU+YyU+YyU+YyU+YyU+YyU+YyU+
         YyU+YyU+YyU+YyX+h7rdbpVKpVQ8HldWqxVdYzQl/gcmk0m13W7VD6vVSnk8HnStkZT4b4T/9MvlorPf
         aDQa6HojKfFfCLf54/Goc98zHo/RGSMp8Z+YTqd1ZpxsNovOGUmJj5jL5dBb/Q/tdpvEpk/i/7FUKunE
@@ -100,7 +100,7 @@
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAUoAAAISCAYAAACqHIYCAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EgAACxIB0t1+/AAAEH1JREFUeF7t3YuR1NYahdGbDglAAJAABIADgARIABIgARwABAAJ4ARIgAhIYG7t
+        EQAACxEBf2RfkQAAEH1JREFUeF7t3YuR1NYahdGbDglAAJAABIADgARIABIgARwABAAJ4ARIgAhIYG7t
         uehaPj7S1gw9dk/P+qtWGbol9YPqDz2a8X8ePXp0BcA2oQQohBKgEEqAQigBCqEEKIQSoBBKgEIoAQqh
         BCiEEqAQSoBCKAEKoQQohBKgEEqAQigBCqEEKIQSoBBKgEIoAQqhBCiEEqAQSoBCKAEKoQQohBKgEEqA
         QigBCqEEKIQSoBBKgEIoAQqhBCiEEqAQSoBCKAEKoQQohBKgEEqAQigBCqEEKIQSoBBKqidPnly9efPm

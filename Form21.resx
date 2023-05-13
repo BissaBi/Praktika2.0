@@ -61,7 +61,7 @@
   <data name="button1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAASIAAAAjCAYAAAAwlQenAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EgAACxIB0t1+/AAABadJREFUeF7tmq9TJDEQhe9vRINHg8ajQYMGDRqPBg0aj5+rb+/eVdN0Zia7e5Wl
+        EQAACxEBf2RfkQAABadJREFUeF7tmq9TJDEQhe9vRINHg8ajQYMGDRqPBg0aj5+rb+/eVdN0Zia7e5Wl
         6nXVVwtJp/OD9Etmll9HR0eTMcaMxEJkjBmOhcgYMxwLkTFmOBYiY8xwLETGmOFYiIwxw7EQGWOGYyEy
         3VxfX08fHx/T3d1dWT+Ss7Ozb2XPz8/T5+fndHFx8a1uX5ycnExvb28TVtWbeSxEW8CG7tnUvf6HDgKE
         HZoQ3d7ebsb1+vr6pRzRxP7n3+D09HTTB1bVm3ksRJ2wmWVrNja3B4wTuar/iexLiJ6enjYisS+BIB5G
@@ -91,7 +91,7 @@
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAUUAAADXCAYAAACNrUOhAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EgAACxIB0t1+/AAAKPBJREFUeF7tnT23NDfRtfmNxBBDbGIcE5vYxDi2Y3LHEOMYYnK/67qt/T5FsdXf
+        EQAACxEBf2RfkQAAKPBJREFUeF7tnT23NDfRtfmNxBBDbGIcE5vYxDi2Y3LHEOMYYnK/67qt/T5FsdXf
         3VNzTu21rnXmtNTqarW0W+qPmV/9+te//rlpmuaV/KqSXIBN0zRPMuyohlyATdM0TzLsqIZcgE3TNE8y
         7KiGXIBN0zRPMuyohlyATdM0TzLsqIZcgE3TNE8y7KiGXIBN0zRPMuyohlyATdM0TzLsqIZcgE3TNE8y
         7KiGXIBN0zRPMuyohlyATdM0TzLsqIZcgE3TNE8y7KiGXIBN0zRPMuyohlyATdM0TzLsqIZcgNX5zW9+
@@ -272,7 +272,7 @@
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAUoAAAISCAYAAACqHIYCAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EgAACxIB0t1+/AAANIBJREFUeF7tnY2VK0XSbZ874wAYAA6AAWAAOIADYMDFAcYAMAAcwAIcwAIcuG/t
+        EQAACxEBf2RfkQAANIBJREFUeF7tnY2VK0XSbZ874wAYAA6AAWAAOIADYMDFAcYAMAAcwAIcwAIcuG/t
         Hs58QUxmRalbUv/tWGsvSfkbGZl5Kqukvvf//etf//ooIiJ7FEoRkQGFUkRkQKEUERlQKEVEBhRKEZEB
         hVJEZEChFBEZUChFRAYUShGRAYVSRGRAoRQRGVAoRUQGFEoRkQGFUkRkQKEUERlQKEVEBhRKEZEBhVJE
         ZEChFBEZUChFRAYUShGRAYVSRGRAoRQRGVAoRUQGFEoRkYEXKZSff/75xz/++OPjV199tcy/lO++++6h
