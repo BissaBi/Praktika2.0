@@ -30,7 +30,6 @@
         {
             button1 = new Button();
             pictureBox1 = new PictureBox();
-            button2 = new Button();
             label3 = new Label();
             label2 = new Label();
             label1 = new Label();
@@ -43,7 +42,7 @@
             button1.Name = "button1";
             button1.Size = new Size(290, 35);
             button1.TabIndex = 6;
-            button1.Text = "Скачать";
+            button1.Text = "Подробнее";
             button1.UseVisualStyleBackColor = true;
             // 
             // pictureBox1
@@ -54,18 +53,9 @@
             pictureBox1.TabIndex = 5;
             pictureBox1.TabStop = false;
             // 
-            // button2
-            // 
-            button2.Location = new Point(12, 12);
-            button2.Name = "button2";
-            button2.Size = new Size(60, 30);
-            button2.TabIndex = 10;
-            button2.Text = "<-";
-            button2.UseVisualStyleBackColor = true;
-            // 
             // label3
             // 
-            label3.Location = new Point(12, 146);
+            label3.Location = new Point(12, 150);
             label3.Name = "label3";
             label3.Size = new Size(267, 51);
             label3.TabIndex = 9;
@@ -73,7 +63,7 @@
             // 
             // label2
             // 
-            label2.Location = new Point(12, 96);
+            label2.Location = new Point(12, 83);
             label2.Name = "label2";
             label2.Size = new Size(275, 50);
             label2.TabIndex = 8;
@@ -81,7 +71,7 @@
             // 
             // label1
             // 
-            label1.Location = new Point(12, 53);
+            label1.Location = new Point(12, 29);
             label1.Name = "label1";
             label1.Size = new Size(279, 43);
             label1.TabIndex = 7;
@@ -92,7 +82,6 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(312, 483);
-            Controls.Add(button2);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -110,7 +99,6 @@
         #endregion
         private Button button1;
         private PictureBox pictureBox1;
-        private Button button2;
         private Label label3;
         private Label label2;
         private Label label1;

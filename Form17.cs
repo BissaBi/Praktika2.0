@@ -35,8 +35,9 @@ namespace Praktika2._0
                 {
                     foreach (Form f in Application.OpenForms)
                         f.Close();
-                };
+                };             
             }
         }
+
     }
 }
