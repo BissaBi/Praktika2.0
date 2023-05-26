@@ -1,16 +1,23 @@
-﻿using System;
+﻿using Npgsql;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection.Metadata;
 using System.Text;
 using System.Threading.Tasks;
 using static System.Net.Mime.MediaTypeNames;
-
+using Application = System.Windows.Forms.Application;
 
 namespace Praktika2._0
 {
     public partial class Form1 : Form
     {
+
+        private const string connectionString = "Server=194.169.163.175;Port=5432;Database=tsof;User Id=tsof;Password=123;";
+        private const string query = "SELECT version FROM cur_vers";
+        public string versiontxtfile;
+
+
         public Form1()
         {
             InitializeComponent();
@@ -318,8 +325,65 @@ namespace Praktika2._0
             }
         }
 
+        private void button13_Click(object sender, EventArgs e)
+        {
+            UpdateVersionFromDatabase();
+        }
 
+        private void UpdateVersionFromDatabase()
+        {
+            try
+            {
+                // Подключение к базе данных
+                using (var connection = new NpgsqlConnection(connectionString))
+                {
+                    connection.Open();
 
+                    // Запрос для получения значения из столбца app_version
+                    string query = "SELECT version FROM cur_vers WHERE id = 1;";
+
+                    using (var command = new NpgsqlCommand(query, connection))
+                    {
+                        // Получение значения из базы данных
+                        string dbVersion = command.ExecuteScalar()?.ToString();
+
+                        if (dbVersion != null)
+                        {
+                            // Чтение значения из файла version.txt
+                            string versionFilePath = Path.Combine(Application.StartupPath, "version.txt");
+                            string fileContent = File.ReadAllText(versionFilePath);
+
+                            // Сравнение значения из базы данных и файла
+                            if (dbVersion != fileContent)
+                            {
+                                // Обновление значения в файле
+                                File.WriteAllText(versionFilePath, dbVersion);
+
+                                // Присваивание нового значения переменной versionapptxt
+                                versiontxtfile = dbVersion;
+
+                                // Вывод сообщения об успешном обновлении
+                                MessageBox.Show("Файл версии успешно обновлен.", "Успех");
+                                Application.Restart();
+
+                            }
+                            else
+                            {
+                                MessageBox.Show("Значение версии в базе данных и файле уже совпадают.", "Информация");
+                            }
+                        }
+                        else
+                        {
+                            MessageBox.Show("Значение версии не найдено в базе данных.", "Ошибка");
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Ошибка при обновлении версии: " + ex.Message, "Ошибка");
+            }
+        }
     }
 
 }

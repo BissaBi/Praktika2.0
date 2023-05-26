@@ -28,6 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+
+            string versionFilePath = Path.Combine(Application.StartupPath, "version.txt");
+            string versionshow = File.ReadAllText(versionFilePath);
+
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             button1 = new Button();
             button9 = new Button();
@@ -43,6 +47,8 @@
             FunctionTextBox = new TextBox();
             DiffTextBox = new TextBox();
             button12 = new Button();
+            label1 = new Label();
+            button13 = new Button();
             SuspendLayout();
             // 
             // button1
@@ -189,12 +195,33 @@
             button12.UseVisualStyleBackColor = true;
             button12.Click += button12_Click;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(27, 24);
+            label1.Name = "label1";
+            label1.Size = new Size(45, 15);
+            label1.TabIndex = 24;
+            label1.Text = "Version " + versionshow;
+            // 
+            // button13
+            // 
+            button13.Location = new Point(124, 20);
+            button13.Name = "button13";
+            button13.Size = new Size(75, 23);
+            button13.TabIndex = 25;
+            button13.Text = "button13";
+            button13.UseVisualStyleBackColor = true;
+            button13.Click += button13_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(900, 496);
+            Controls.Add(button13);
+            Controls.Add(label1);
             Controls.Add(button12);
             Controls.Add(DiffTextBox);
             Controls.Add(FunctionTextBox);
@@ -236,5 +263,7 @@
         private TextBox FunctionTextBox;
         private TextBox DiffTextBox;
         private Button button12;
+        private Label label1;
+        private Button button13;
     }
 }
