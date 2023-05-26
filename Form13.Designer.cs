@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form13));
-            textBox2 = new TextBox();
-            textBox1 = new TextBox();
+            DiffTextBox = new TextBox();
+            FunctionTextBox = new TextBox();
             button8 = new Button();
             button7 = new Button();
             button6 = new Button();
@@ -45,26 +45,26 @@
             button12 = new Button();
             SuspendLayout();
             // 
-            // textBox2
+            // DiffTextBox
             // 
-            textBox2.Font = new Font("MS Gothic", 16.25F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox2.ForeColor = SystemColors.InfoText;
-            textBox2.Location = new Point(280, 456);
-            textBox2.Margin = new Padding(3, 4, 3, 4);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(445, 35);
-            textBox2.TabIndex = 37;
-            textBox2.TextChanged += textBox2_TextChanged;
+            DiffTextBox.Font = new Font("MS Gothic", 16.25F, FontStyle.Regular, GraphicsUnit.Point);
+            DiffTextBox.ForeColor = SystemColors.InfoText;
+            DiffTextBox.Location = new Point(280, 456);
+            DiffTextBox.Margin = new Padding(3, 4, 3, 4);
+            DiffTextBox.Name = "DiffTextBox";
+            DiffTextBox.Size = new Size(445, 35);
+            DiffTextBox.TabIndex = 37;
+            DiffTextBox.TextChanged += textBox2_TextChanged;
             // 
-            // textBox1
+            // FunctionTextBox
             // 
-            textBox1.Font = new Font("MS Gothic", 16.25F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox1.ForeColor = SystemColors.InfoText;
-            textBox1.Location = new Point(280, 209);
-            textBox1.Margin = new Padding(3, 4, 3, 4);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(445, 35);
-            textBox1.TabIndex = 36;
+            FunctionTextBox.Font = new Font("MS Gothic", 16.25F, FontStyle.Regular, GraphicsUnit.Point);
+            FunctionTextBox.ForeColor = SystemColors.InfoText;
+            FunctionTextBox.Location = new Point(280, 209);
+            FunctionTextBox.Margin = new Padding(3, 4, 3, 4);
+            FunctionTextBox.Name = "FunctionTextBox";
+            FunctionTextBox.Size = new Size(445, 35);
+            FunctionTextBox.TabIndex = 36;
             // 
             // button8
             // 
@@ -207,8 +207,8 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1028, 662);
             Controls.Add(button12);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(DiffTextBox);
+            Controls.Add(FunctionTextBox);
             Controls.Add(button8);
             Controls.Add(button7);
             Controls.Add(button6);
@@ -231,8 +231,8 @@
         }
 
         #endregion
-        private TextBox textBox2;
-        private TextBox textBox1;
+        private TextBox DiffTextBox;
+        private TextBox FunctionTextBox;
         private Button button8;
         private Button button7;
         private Button button6;

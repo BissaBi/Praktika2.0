@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Praktika2.0", "Praktika2.0.csproj", "{A7B9BF34-11E8-419F-A946-79C09070E09A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Praktika2.0", "Praktika2.0.csproj", "{A7B9BF34-11E8-419F-A946-79C09070E09A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{7EF1DE90-74E7-49B2-993B-C40F7BF84ACB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

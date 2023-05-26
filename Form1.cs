@@ -21,6 +21,11 @@ namespace Praktika2._0
         public Form1()
         {
             InitializeComponent();
+
+            string versionFilePath = Path.Combine(Application.StartupPath, "version.txt");
+            string versionshow = File.ReadAllText(versionFilePath);
+            label2.Text = versionshow;
+
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
