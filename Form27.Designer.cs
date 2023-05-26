@@ -34,9 +34,9 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1010, 615);
-            MaximumSize = new Size(1028, 662);
-            MinimumSize = new Size(1028, 662);
+            ClientSize = new Size(412, 653);
+            MaximumSize = new Size(430, 700);
+            MinimumSize = new Size(430, 700);
             Name = "Form27";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form27";

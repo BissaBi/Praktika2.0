@@ -1,4 +1,13 @@
-﻿namespace Praktika2._0
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Reflection.Metadata;
+using System.Text;
+using System.Threading.Tasks;
+using static System.Net.Mime.MediaTypeNames;
+
+
+namespace Praktika2._0
 {
     public partial class Form1 : Form
     {
@@ -83,17 +92,6 @@
             f.ShowDialog();
         }
 
-        private void button11_Click(object sender, EventArgs e)
-        {
-            if (textBox1.Text == "")
-            {
-                MessageBox.Show("Поле ввода пустое!");
-            }
-
-
-
-        }
-
         private void Form1_Load(object sender, EventArgs e)
         {
 
@@ -103,5 +101,15 @@
         {
             this.Close();
         }
+
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            
+        }
+            
+    
+        
     }
+
 }
