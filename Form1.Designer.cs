@@ -40,18 +40,17 @@
             button6 = new Button();
             button7 = new Button();
             button8 = new Button();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
+            FunctionTextBox = new TextBox();
+            DiffTextBox = new TextBox();
             button12 = new Button();
             SuspendLayout();
             // 
             // button1
             // 
             button1.BackgroundImage = (Image)resources.GetObject("button1.BackgroundImage");
-            button1.Location = new Point(313, 263);
-            button1.Margin = new Padding(3, 4, 3, 4);
+            button1.Location = new Point(274, 197);
             button1.Name = "button1";
-            button1.Size = new Size(72, 72);
+            button1.Size = new Size(63, 54);
             button1.TabIndex = 0;
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
@@ -60,10 +59,9 @@
             // 
             button9.BackgroundImage = (Image)resources.GetObject("button9.BackgroundImage");
             button9.Font = new Font("MS Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button9.Location = new Point(943, 13);
-            button9.Margin = new Padding(3, 4, 3, 4);
+            button9.Location = new Point(825, 10);
             button9.Name = "button9";
-            button9.Size = new Size(55, 55);
+            button9.Size = new Size(48, 41);
             button9.TabIndex = 8;
             button9.UseVisualStyleBackColor = true;
             button9.Click += button9_Click;
@@ -72,10 +70,9 @@
             // 
             button10.BackgroundImage = (Image)resources.GetObject("button10.BackgroundImage");
             button10.Font = new Font("MS Gothic", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
-            button10.Location = new Point(749, 199);
-            button10.Margin = new Padding(3, 4, 3, 4);
+            button10.Location = new Point(655, 149);
             button10.Name = "button10";
-            button10.Size = new Size(117, 60);
+            button10.Size = new Size(102, 45);
             button10.TabIndex = 9;
             button10.UseVisualStyleBackColor = true;
             button10.Click += button10_Click;
@@ -84,10 +81,9 @@
             // 
             button11.BackgroundImage = (Image)resources.GetObject("button11.BackgroundImage");
             button11.Font = new Font("MS Gothic", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            button11.Location = new Point(328, 543);
-            button11.Margin = new Padding(3, 4, 3, 4);
+            button11.Location = new Point(287, 407);
             button11.Name = "button11";
-            button11.Size = new Size(355, 55);
+            button11.Size = new Size(311, 41);
             button11.TabIndex = 10;
             button11.UseVisualStyleBackColor = true;
             button11.Click += button11_Click;
@@ -95,10 +91,9 @@
             // button2
             // 
             button2.BackgroundImage = (Image)resources.GetObject("button2.BackgroundImage");
-            button2.Location = new Point(415, 263);
-            button2.Margin = new Padding(3, 4, 3, 4);
+            button2.Location = new Point(363, 197);
             button2.Name = "button2";
-            button2.Size = new Size(72, 72);
+            button2.Size = new Size(63, 54);
             button2.TabIndex = 11;
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
@@ -106,10 +101,9 @@
             // button3
             // 
             button3.BackgroundImage = (Image)resources.GetObject("button3.BackgroundImage");
-            button3.Location = new Point(517, 263);
-            button3.Margin = new Padding(3, 4, 3, 4);
+            button3.Location = new Point(452, 197);
             button3.Name = "button3";
-            button3.Size = new Size(72, 72);
+            button3.Size = new Size(63, 54);
             button3.TabIndex = 12;
             button3.UseVisualStyleBackColor = true;
             button3.Click += button3_Click;
@@ -117,10 +111,9 @@
             // button4
             // 
             button4.BackgroundImage = (Image)resources.GetObject("button4.BackgroundImage");
-            button4.Location = new Point(613, 263);
-            button4.Margin = new Padding(3, 4, 3, 4);
+            button4.Location = new Point(536, 197);
             button4.Name = "button4";
-            button4.Size = new Size(72, 72);
+            button4.Size = new Size(63, 54);
             button4.TabIndex = 13;
             button4.UseVisualStyleBackColor = true;
             button4.Click += button4_Click;
@@ -128,10 +121,9 @@
             // button5
             // 
             button5.BackgroundImage = (Image)resources.GetObject("button5.BackgroundImage");
-            button5.Location = new Point(313, 365);
-            button5.Margin = new Padding(3, 4, 3, 4);
+            button5.Location = new Point(274, 274);
             button5.Name = "button5";
-            button5.Size = new Size(72, 72);
+            button5.Size = new Size(63, 54);
             button5.TabIndex = 14;
             button5.UseVisualStyleBackColor = true;
             button5.Click += button5_Click;
@@ -139,10 +131,9 @@
             // button6
             // 
             button6.BackgroundImage = (Image)resources.GetObject("button6.BackgroundImage");
-            button6.Location = new Point(415, 365);
-            button6.Margin = new Padding(3, 4, 3, 4);
+            button6.Location = new Point(363, 274);
             button6.Name = "button6";
-            button6.Size = new Size(72, 72);
+            button6.Size = new Size(63, 54);
             button6.TabIndex = 15;
             button6.UseVisualStyleBackColor = true;
             button6.Click += button6_Click;
@@ -150,10 +141,9 @@
             // button7
             // 
             button7.BackgroundImage = (Image)resources.GetObject("button7.BackgroundImage");
-            button7.Location = new Point(517, 365);
-            button7.Margin = new Padding(3, 4, 3, 4);
+            button7.Location = new Point(452, 274);
             button7.Name = "button7";
-            button7.Size = new Size(72, 72);
+            button7.Size = new Size(63, 54);
             button7.TabIndex = 16;
             button7.UseVisualStyleBackColor = true;
             button7.Click += button7_Click;
@@ -161,55 +151,53 @@
             // button8
             // 
             button8.BackgroundImage = (Image)resources.GetObject("button8.BackgroundImage");
-            button8.Location = new Point(613, 365);
-            button8.Margin = new Padding(3, 4, 3, 4);
+            button8.Location = new Point(536, 274);
             button8.Name = "button8";
-            button8.Size = new Size(72, 72);
+            button8.Size = new Size(63, 54);
             button8.TabIndex = 17;
             button8.UseVisualStyleBackColor = true;
             button8.Click += button8_Click;
             // 
-            // textBox1
+            // FunctionTextBox
             // 
-            textBox1.Font = new Font("MS Gothic", 16.25F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox1.ForeColor = SystemColors.InfoText;
-            textBox1.Location = new Point(279, 209);
-            textBox1.Margin = new Padding(3, 4, 3, 4);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(445, 35);
-            textBox1.TabIndex = 20;
-            textBox1.TextChanged += textBox1_TextChanged;
+            FunctionTextBox.Font = new Font("MS Gothic", 16.25F, FontStyle.Regular, GraphicsUnit.Point);
+            FunctionTextBox.ForeColor = SystemColors.InfoText;
+            FunctionTextBox.Location = new Point(244, 157);
+            FunctionTextBox.Name = "FunctionTextBox";
+            FunctionTextBox.Size = new Size(390, 29);
+            FunctionTextBox.TabIndex = 20;
+            FunctionTextBox.TextChanged += textBox1_TextChanged;
             // 
-            // textBox2
+            // DiffTextBox
             // 
-            textBox2.Font = new Font("MS Gothic", 16.25F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox2.ForeColor = SystemColors.InfoText;
-            textBox2.Location = new Point(279, 454);
-            textBox2.Margin = new Padding(3, 4, 3, 4);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(445, 35);
-            textBox2.TabIndex = 21;
-            textBox2.TextChanged += textBox2_TextChanged;
+            DiffTextBox.Font = new Font("MS Gothic", 16.25F, FontStyle.Regular, GraphicsUnit.Point);
+            DiffTextBox.ForeColor = SystemColors.InfoText;
+            DiffTextBox.Location = new Point(244, 340);
+            DiffTextBox.Name = "DiffTextBox";
+            DiffTextBox.Size = new Size(390, 29);
+            DiffTextBox.TabIndex = 21;
+            DiffTextBox.TextChanged += textBox2_TextChanged;
             // 
             // button12
             // 
             button12.BackgroundImage = (Image)resources.GetObject("button12.BackgroundImage");
-            button12.Location = new Point(943, 585);
+            button12.Location = new Point(825, 439);
+            button12.Margin = new Padding(3, 2, 3, 2);
             button12.Name = "button12";
-            button12.Size = new Size(55, 55);
+            button12.Size = new Size(48, 41);
             button12.TabIndex = 23;
             button12.UseVisualStyleBackColor = true;
             button12.Click += button12_Click;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(1028, 662);
+            ClientSize = new Size(900, 496);
             Controls.Add(button12);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(DiffTextBox);
+            Controls.Add(FunctionTextBox);
             Controls.Add(button8);
             Controls.Add(button7);
             Controls.Add(button6);
@@ -222,9 +210,8 @@
             Controls.Add(button9);
             Controls.Add(button1);
             FormBorderStyle = FormBorderStyle.None;
-            Margin = new Padding(3, 4, 3, 4);
-            MaximumSize = new Size(1028, 662);
-            MinimumSize = new Size(1028, 662);
+            MaximumSize = new Size(900, 496);
+            MinimumSize = new Size(900, 496);
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Dmath";
@@ -246,8 +233,8 @@
         private Button button6;
         private Button button7;
         private Button button8;
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private TextBox FunctionTextBox;
+        private TextBox DiffTextBox;
         private Button button12;
     }
 }
