@@ -36,7 +36,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(502, 831);
+            ClientSize = new Size(391, 615);
             Name = "Form25";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form25";
