@@ -28,15 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form25));
             SuspendLayout();
             // 
             // Form25
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1010, 615);
-            MaximumSize = new Size(1028, 662);
-            MinimumSize = new Size(1028, 662);
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            ClientSize = new Size(502, 831);
             Name = "Form25";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form25";

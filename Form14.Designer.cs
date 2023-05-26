@@ -88,6 +88,7 @@
             button1.Size = new Size(240, 90);
             button1.TabIndex = 8;
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // Form14
             // 

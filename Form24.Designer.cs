@@ -84,6 +84,7 @@
             MaximumSize = new Size(330, 530);
             MinimumSize = new Size(330, 530);
             Name = "Form24";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Об авторах  анг/тем";
             ResumeLayout(false);
         }

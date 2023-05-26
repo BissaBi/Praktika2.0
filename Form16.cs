@@ -16,5 +16,16 @@ namespace Praktika2._0
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form19 f = new Form19();
+            f.ShowDialog();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Тема уже установлена!");
+        }
     }
 }

@@ -41,6 +41,7 @@
             button2.Size = new Size(125, 45);
             button2.TabIndex = 8;
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button1
             // 
@@ -50,6 +51,7 @@
             button1.Size = new Size(125, 45);
             button1.TabIndex = 7;
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // Form16
             // 

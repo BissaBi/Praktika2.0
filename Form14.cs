@@ -28,5 +28,11 @@ namespace Praktika2._0
             Form17 f = new Form17();
             f.ShowDialog();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form15 f = new Form15();
+            f.ShowDialog();
+        }
     }
 }

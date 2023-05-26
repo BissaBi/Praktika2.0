@@ -24,7 +24,8 @@ namespace Praktika2._0
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            Form13 f = new Form13();
+            f.ShowDialog();
         }
     }
 }
